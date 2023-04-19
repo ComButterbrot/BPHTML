@@ -10,6 +10,10 @@
     left: 53.75%;
 }
 
+.dropdown.docs{
+    left: 56%;
+}
+
 .dropdown.contacts{
     position: absolute;
     right: 6%;

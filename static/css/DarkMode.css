@@ -297,6 +297,15 @@ img {
     opacity: 0.7;
 }
 
+.skills-column.text.doc-text {
+    text-align: center;
+    font-weight: 800;
+}
+
+.skills-column.text.center {
+    text-align: center;
+}
+
 .form-container {
     position: relative;
     margin-top: 13.75%;
@@ -457,6 +466,15 @@ img {
     width: 89.1655vw;
     left: 4.5vw;
     height: 90vh;
+    position: relative;
+    top: 2vh;
+    margin-bottom: 13%;
+}
+
+.docs-container {
+    width: 89.1655vw;
+    left: 4.5vw;
+    height: 65vh;
     position: relative;
     top: 2vh;
     margin-bottom: 13%;
@@ -917,6 +935,35 @@ img {
 .btn-more:hover{
     background: #C651FD;
     border: #C651FD solid 3px;
+    opacity: 1;
+}
+
+.btn-docs{
+    background: rgb(197,80,252);
+    background: linear-gradient(90deg, rgba(197,80,252,1) 0%, rgba(0,0,0,1) 35%, rgba(254,0,108,1) 100%);
+    border: #ffffff solid 0px;
+    color: #ffffff;
+    font-size: 1.46vw;
+    font-family: Inter;
+    height: 6.75vh;
+    width: 16.91vw;
+    border-radius: 6.25vh;
+}
+
+.btn-docs-mobile{
+    background: rgb(197,80,252);
+    background: linear-gradient(90deg, rgba(197,80,252,1) 0%, rgba(0,0,0,1) 35%, rgba(254,0,108,1) 100%);
+    color: #ffffff;
+    font-size: 4.267vw;
+    font-family: Inter;
+    height: 6.75vh;
+    width: 52.53vw;
+    border-radius: 6.25vh;
+}
+
+.btn-docs:hover{
+    background: rgb(208,123,249);
+    background: linear-gradient(90deg, rgba(208,123,249,1) 0%, rgba(0,0,0,1) 65%, rgba(255,49,137,1) 100%);
     opacity: 1;
 }
 
