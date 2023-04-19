@@ -480,9 +480,9 @@ img {
 .docs-container {
     width: 89.1655vw;
     left: 4.5vw;
-    height: 65vh;
+    height: 75vh;
     position: relative;
-    top: 2vh;
+    top: 5vh;
     margin-bottom: 13%;
 }
 
@@ -945,8 +945,7 @@ img {
 }
 
 .btn-docs{
-    background: rgb(197,80,252);
-    background: linear-gradient(90deg, rgba(197,80,252,1) 0%, rgba(0,0,0,1) 35%, rgba(254,0,108,1) 100%);
+    background: #9e43cc;
     border: #ffffff solid 0px;
     color: #ffffff;
     font-size: 1.46vw;
@@ -957,8 +956,7 @@ img {
 }
 
 .btn-docs-mobile{
-    background: rgb(197,80,252);
-    background: linear-gradient(90deg, rgba(197,80,252,1) 0%, rgba(0,0,0,1) 35%, rgba(254,0,108,1) 100%);
+    background: #9e43cc;
     color: #ffffff;
     font-size: 4.267vw;
     font-family: Inter;
@@ -968,8 +966,7 @@ img {
 }
 
 .btn-docs:hover{
-    background: rgb(208,123,249);
-    background: linear-gradient(90deg, rgba(208,123,249,1) 0%, rgba(0,0,0,1) 65%, rgba(255,49,137,1) 100%);
+    background: #c651fd;
     opacity: 1;
 }
 
