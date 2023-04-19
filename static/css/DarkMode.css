@@ -298,7 +298,7 @@ img {
 }
 
 .skills-column.text.doc-text {
-    text-align: center;
+    text-align: left;
     font-weight: 800;
 }
 
@@ -321,6 +321,12 @@ img {
 }
 
 .form-table-mobile {
+    position: relative;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.docs-table {
     position: relative;
     table-layout: fixed;
     width: 100%;
@@ -1059,6 +1065,16 @@ img {
 }
 .btn-reg{
     font-size: 2vh;
+}
+.skills-column.text.doc-text{
+    font-size: 2vh;
+}
+.skills-column.text.center{
+    text-align: right;
+}
+.btn-docs{
+    font-size: 2.46vw;
+    border-radius: 2.25vh;
 }
 .footer-brand{
     height: 2.9vh;
